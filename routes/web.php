@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\QrcodeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [QrcodeController::class, 'index']);
+
+Route::get('/{code}', [QrcodeController::class, 'qrcode'])->name('item.qrcode');
+
+Route::get('/verify/{code}', [QrcodeController::class, 'verify'])->name('item.verify');
