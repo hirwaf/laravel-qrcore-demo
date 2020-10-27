@@ -10,18 +10,18 @@ class QrcodeController extends Controller
     protected $list = [
         [
             'id'         => '145-PX',
-            'name'       => 'Tiger Nixon',
+            'name'       => 'Mucyo Fred',
             'positive'   => 'System Architect',
-            'office'     => 'Edinburgh',
-            'age'        => '61',
+            'office'     => 'Kacyiru',
+            'age'        => '40',
             'start_date' => '2011/04/25',
         ],
         [
             'id'         => '146-EM',
-            'name'       => 'Donna Snider',
+            'name'       => 'Hirwa Jean Felix',
             'positive'   => 'Customer Support',
-            'office'     => 'New York',
-            'age'        => '27',
+            'office'     => 'Kicukiro',
+            'age'        => '45',
             'start_date' => '2011/01/25',
         ],
     ];
