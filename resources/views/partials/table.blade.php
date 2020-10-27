@@ -23,7 +23,7 @@
                 <td>{{ $item['office'] }}</td>
                 <td>{{ $item['age'] }}</td>
                 <td>{{ $item['start_date'] }}</td>
-                <td align="center">
+                <td align="center" class="w-1/3">
                     <a href="{{ route('item.qrcode', ['code' => $item['id'] ]) }}"
                        target="_blank"
                        class="bg-green-100 py-3 px-4 cursor-pointer">Generate QrCode</a>
