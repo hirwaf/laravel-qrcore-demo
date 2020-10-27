@@ -26,7 +26,7 @@
                 <td align="center">
                     <a href="{{ route('item.qrcode', ['code' => $item['id'] ]) }}"
                        target="_blank"
-                       class="bg-green-100 py-3 px-4 cursor-pointer">Print</a>
+                       class="bg-green-100 py-3 px-4 cursor-pointer">Generate QrCode</a>
                 </td>
             </tr>
         @endforeach
